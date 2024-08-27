@@ -51,6 +51,8 @@ Following is the description for columns in the dataset**
 
 -fare:                  ticket fare, round trip, etc
 
+dataset link : https://www.kaggle.com/datasets/muhammadyasirsaleem/tickets-pricing-monitoring-system-dataset/data
+
 ## Data Preprocessing
 
 Data preprocessing steps included:
