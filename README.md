@@ -32,15 +32,24 @@ Train ticket prices can vary significantly based on multiple factors. This proje
 This is a ticket pricing monitoring system. It scrapes ticket pricing data periodically and stores it in a database. Ticket pricing changes based on demand and time, and significant price differences can exist. We are creating this product mainly with ourselves in mind. Users can set up alarms using an email, choosing an origin and destination (cities), time (date and hour range picker) choosing a price reduction over mean price, etc.
 
 Following is the description for columns in the dataset**
-insert_date:     date and time when the price was collected and written in the database
-origin:              origin city
-destination:      destination city
-start_date:        train departure time
-end_date:         train arrival time
-train_type:         train service name
-price:                 price
-train_class:      ticket class, tourist, business, etc.
-fare:                  ticket fare, round trip, etc
+
+-insert_date:     date and time when the price was collected and written in the database
+
+-origin:              origin city
+
+-destination:      destination city
+
+-start_date:        train departure time
+
+-end_date:         train arrival time
+
+-train_type:         train service name
+
+-price:                 price
+
+-train_class:      ticket class, tourist, business, etc.
+
+-fare:                  ticket fare, round trip, etc
 
 ## Data Preprocessing
 
